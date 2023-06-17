@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Nature</title>
+
+	<link rel="stylesheet" href="ready-html/css/main.css">
+
+	<script src="ready-html/libs/gsap/gsap.min.js" defer></script>
+	<script src="ready-html/libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="ready-html/libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="ready-html/js/app.js" defer></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Welcome to Nature</div>
+						<div class="layers__title">questions:10</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(ready-html/img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(ready-html/img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(ready-html/img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<article class="main-article" style="background-image: url(ready-html/img/dungeon.jpg);">
+				<div class="main-article__content">
+					<h2 id="main-article__header">question:1</h2>
+					<p id="main-article__paragraph">вапвпыпваыпвапывапывапывапывапывпывпывпывпа</p>
+					<input type="text" id="Answer" placeholder="Вопрос №1">
+					<button onclick="AnswerThis()" id = "Answer__button">Ответить</button>
+				</div>
+			</article>
+		</div>
+	</div>
+	<noscript>Включите JS</noscript>
+	<script src="ready-html/js/main.js"></script>
+</body>
+</html>
